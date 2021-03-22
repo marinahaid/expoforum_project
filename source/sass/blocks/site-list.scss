@@ -1,0 +1,21 @@
+.site-list a,
+.main-nav__icons a {
+  font-size: 14px;
+  line-height: 21px;
+  color: $color-text;
+
+  &:focus,
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.site-list li {
+  padding-top: 9px;
+  margin-left: 44px;
+}
+

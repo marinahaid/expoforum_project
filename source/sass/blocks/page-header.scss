@@ -1,0 +1,31 @@
+.page-header {
+  width: 100%;
+  margin: 0 auto;
+  z-index: 3;
+  position: relative;
+  border-bottom: 1px solid #fff;
+  }
+
+.page-header__wrapper {
+  max-width: 1560px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  padding-bottom: 7px;
+}
+
+.page-header__logo {
+  width: 175px;
+  height: 24px;
+  display: flex;
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
