@@ -1,0 +1,64 @@
+.offers {
+  width: 100%;
+  background-color: rgba(35, 120, 252, 1);
+  margin-top: -111px;
+}
+
+.offers__container {
+  padding: 0 223px;
+  margin: 0 auto;
+}
+
+.offers__box {
+  display: flex;
+  padding: 50px 0 62px 0;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.offers__box h3 {
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.8px;
+}
+
+.offers__box a {
+  display: block;
+  color: $color-text;
+  font-size: 12px;
+  line-height: 25px;
+
+  &:hover,
+  &:active {
+    color: rgba(255, 196, 30, 1);
+    text-decoration: underline;
+  }
+}
+
+.offers__box-one {
+  width: 210px;
+  margin-right: 122px;
+}
+
+.offers__box-two {
+  width: 188px;
+  margin-right: 121px;
+}
+
+.offers__box-three {
+  width: 186px;
+  margin-right: 120px;
+}
+
+.offers__box-four {
+  width: 167px;
+}
+
+.offers__box li {
+  padding-bottom: 12px;
+}
+
+.offers__box-four {
+  margin-right: 0;
+}

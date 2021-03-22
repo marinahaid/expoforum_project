@@ -1,0 +1,18 @@
+.icon-social {
+  width: 217px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.social-button-icon {
+  color: $color-text;
+
+  &:hover,
+  &:focus,
+  &:active {
+    opacity: 0.5;
+  }
+}
