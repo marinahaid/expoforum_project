@@ -1,0 +1,124 @@
+.top {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  top: -112px;
+  min-height: 823px;
+  background-color: $color-text;
+  background-image: url("../img/header-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  left: 0;
+  display: block;
+}
+
+.top__container {
+  padding: 0 223px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 295px;
+}
+
+.top__container a {
+  color: $color-text;
+}
+
+.top__left {
+  max-width: 420px;
+}
+
+.top__left h1 {
+  margin: 0;
+  font-size: 64px;
+  line-height: 102px;
+  font-weight: 700;
+  color: $color-text;
+  margin-bottom: 10px;
+  letter-spacing: -2.6px;
+}
+
+.top__left p {
+  font-size: 20px;
+  line-height: 33.6px;
+  color: $color-text;
+  margin: 0;
+  padding: 0 30px 22px 0;
+}
+
+.top__left span {
+  font-size: 14px;
+  line-height: 33.6px;
+  color: $color-text;
+}
+
+.top-icon {
+  padding: 8px 0 0 10px;
+}
+
+.top__right ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.top__right-title {
+  font-size: 18px;
+  line-height: 27.3px;
+  color: $color-text;
+  padding-bottom: 15px;
+}
+
+.details::before {
+  content: "";
+  background-image: url("../img/arrow1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  left: 0;
+  display: block;
+}
+
+.top__right {
+  padding-top: 121px;
+  padding-left: 158px;
+}
+
+.top__right li {
+  margin-bottom: 30px;
+  padding-right: 30px;
+}
+
+.top__right li:nth-child(2),
+.top__right li:nth-child(4) {
+  padding-right: 0;
+}
+
+.top__right--one a {
+  background-color: rgba(35, 120, 252, 1);
+}
+
+.top__right--two a {
+  background-color: rgba(48, 188, 201, 1);
+}
+
+.top__right--three a {
+  background-color: rgba(255, 196, 30, 1);
+}
+
+.top__right--four a {
+  background-color: rgba(246, 64, 79, 1);
+}
+
+.top__right a {
+  max-width: 255px;
+  display: flex;
+  padding: 32px 30px 35px 38px;
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  font-size: 10px;
+}

@@ -41,21 +41,19 @@
 .events__bottom {
   display: flex;
   flex-wrap: wrap;
+
   padding-top: 28px;
 }
 
 .events__bottom li {
   padding-top: 5px;
   width: 350px;
-  margin-right: 30px;
-}
-
-.events__bottom li:nth-child(3),
-.events__bottom li:nth-child(6) {
-  margin-right: 0;
+  padding: 0 15px;
 }
 
 .events__bottom-image {
+  width: 100%;
+  display: block;
   margin-bottom: 13px;
 }
 
